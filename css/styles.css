@@ -1,3 +1,67 @@
-body{
-    background-color:#E5E5E5 ;
+/* цвет отновного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA; */
+/* цвет фона для героя #2F303A */
+/* цвет текста в футере #FFFFFF 60 % */
+/* цвет названия улицы #FFFFFF (белый цвет)*/
+/* цвет акцента #2196F3 */
+
+:root{
+    --accent-color: #2196F3;
+    --primery-text-color: #757575;
+    --titel-text-color: #212121;
+    --white-color: #FFFFFF;
+    --main-background-color:#E5E5E5;
+    --secondary-background-color:#F5F4FA;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --background-color-hero-footer: #2F303A;
+    --test-color: orange; 
 }
+
+body{
+    background-color: var(--main-background-color);
+color: var(--titel-text-color);
+}
+
+ul { list-style: none;}
+
+/* Logo */
+.logo {color: #000000;}
+.logo:hover, .link:focus { color: var(--accent-color);}
+
+/* Site-Nav */
+.site-nav .link{ color: var(--titel-text-color);}
+.site-nav .link:hover, 
+.site-nav .link:focus {color: var(--accent-color);}
+
+/* Auth-Nav */
+.auth-nav .link {color: var(--primery-text-color);}
+.auth-nav .link:hover, 
+.auth-nav .link:focus {color: var(--accent-color);}
+
+/* Hero */
+.hero {background-color: var(--background-color-hero-footer);}
+.title {color: var(--white-color);}
+
+/* Button */
+.button {color: var(--white-color);}
+.button {background-color: var(--accent-color);}
+
+/* Section */
+.text {color: var(--primery-text-color);}
+
+/* Section Team */
+.section-team { background-color: var(--secondary-background-color);}
+.section-team .team-link {background-color: var(--white-color);}
+
+/* Footer */
+.footer {
+    background-color: var(--background-color-hero-footer);}
+
+.footer-logo { color: var(--white-color); }
+.footer-logo:hover,
+.footer-logo:focus { color: var(--accent-color); }
+
+.footer-address { color: var(--white-color);}
+.footer-link { color: var(--footer-text-color); }
