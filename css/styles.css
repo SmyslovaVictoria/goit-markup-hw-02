@@ -28,12 +28,14 @@ ul { list-style: none;}
 
 /* Logo */
 .logo {color: #000000;}
-.logo:hover, .link:focus { color: var(--accent-color);}
+.logo:hover, 
+.link:focus { color: var(--accent-color);}
 
 /* Site-Nav */
 .site-nav .link{ color: var(--titel-text-color);}
 .site-nav .link:hover, 
 .site-nav .link:focus {color: var(--accent-color);}
+.site-nav .link.current {color: var(--accent-color); }
 
 /* Auth-Nav */
 .auth-nav .link {color: var(--primery-text-color);}
@@ -42,7 +44,7 @@ ul { list-style: none;}
 
 /* Hero */
 .hero {background-color: var(--background-color-hero-footer);}
-.title {color: var(--white-color);}
+.title {color: var(--white-color) ;}
 
 /* Button */
 .button {color: var(--white-color);}
@@ -64,4 +66,16 @@ ul { list-style: none;}
 .footer-logo:focus { color: var(--accent-color); }
 
 .footer-address { color: var(--white-color);}
-.footer-link { color: var(--footer-text-color); }
+.footer-link { color: var(--footer-text-color);}
+
+
+/* Styles for portfolio */
+.section-button {background-color: var(--secondary-background-color);}
+.section-button {color: var(--titel-text-color)}
+
+.section-button:hover, 
+.section-button:focus {background-color: var(--accent-color);}
+/* .section-button.current {color: var(--accent-color); } */
+
+.section-button:hover, 
+.section-button:focus {color: var(--white-color);}
