@@ -7,8 +7,7 @@
     --secondary-background-color:#F5F4FA;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --background-color-hero-footer: #2F303A;
-    --lodo-color: #000000;
-    --test-color: orange; }
+    --lodo-color: #000000;}
 
 body{
 background-color: var(--main-background-color);
@@ -87,15 +86,15 @@ text-align: center;
 letter-spacing: 0.06em;}
 
 /* Section Benefits */
+.benefits-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;}
+
 .text {color: var(--primery-text-color);
 font-size: 14px;
 line-height: 1.71;}
-
-h3 {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;}
 
 /* What are we doing adn Team Titles */
 .making-title, .team-title {
@@ -106,7 +105,7 @@ text-align: center;}
 
 /* Section Team */
 .section-team { background-color: var(--secondary-background-color);}
-.section-team .team-link {background-color: var(--white-color);}
+.section-team .team-link {background-color: #FFFFFF;}
 
 .personal-title, .personal-text {
  font-weight: 500;
