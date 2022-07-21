@@ -83,7 +83,8 @@ line-height: 1.88;
 display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.06em;}
+letter-spacing: 0.06em;
+cursor: pointer;}
 
 /* Section Benefits */
 .benefits-title{
@@ -142,6 +143,7 @@ line-height: 1.71px;}
 
 /* ------- Styles for portfolio------- */
 .section-button {
+cursor: pointer;
 font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
