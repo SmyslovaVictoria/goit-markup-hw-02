@@ -2,7 +2,7 @@
     --accent-color: #2196F3;
     --primery-text-color: #757575;
     --titel-text-color: #212121;
-    --white-color: #FFFFFF;
+    --white-color: #ffffff;
     --main-background-color:#E5E5E5;
     --secondary-background-color:#F5F4FA;
     --footer-text-color: rgba(255, 255, 255, 0.6);
@@ -142,7 +142,8 @@ font-style: normal;}
 
 .footer-link { color: var(--footer-text-color);
 font-size: 14px;
-line-height: 1.71;}
+line-height: 1.71;
+font-style: normal;}
 
 .footer-link:hover, 
 .footer-link:focus {color: var(--accent-color);}
@@ -173,7 +174,9 @@ letter-spacing: 0.06em;}
 .content-text {
 font-size: 16px;
 line-height: 1.87;
-color: var(--primery-text-color);}
+color: var(--primery-text-color);
+}
+
 
 
 
